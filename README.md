@@ -6,7 +6,10 @@ lighthouse role
 Role Variables
 --------------
 
-A description of the settable variables for this role should go here, including any variables that are in defaults/main.yml, vars/main.yml, and any variables that can/should be set via parameters to the role. Any variables that are read from other roles and/or the global scope (ie. hostvars, group vars, etc.) should be mentioned here as well.
+| Переменная        | Описание                                                                    |
+| :---------------- | :-------------------------------------------------------------------------- |
+| `lighthouse_repo` | Репозиторий `lighthouse`. Например: https://github.com/VKCOM/lighthouse.git |
+| `lighthouse_dir`  | Путь где будет находиться `lighthouse`. Например: `/opt/lighthouse`         |
 
 
 
